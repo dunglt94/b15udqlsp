@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="product_list_css.css">
+    <title>[*Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm</title>
+</head>
+<body onload="addToList()">
+<table class="table1">
+    <tr>
+        <th><label for="add_product">Add New Product</label></th>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" name="" id="add_product" placeholder="New Product">
+            <button onclick="addProduct()">Add</button>
+        </td>
+    </tr>
+</table>
+<table class="table2">
+    <tr>
+        <th colspan="2">Display All Product</th>
+        <td id="number_of_product"></td>
+    </tr>
+</table>
+<table id="product_list">
+
+</table>
+<script src="product_list_js.js"></script>
+</body>
+</html>

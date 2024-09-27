@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+th {
+    background-color: white;
+    height: 50px;
+    text-align: left;
+}
+.table1 tr {
+    /*background-color: #f2f2f2;*/
+    border-radius: 50px;
+    height: 100px;
+}
+.table1 td {
+    padding-left: 20px;
+}
+td {
+    height: 30px;
+}
+input {
+    border: 2px solid lightgrey;
+    padding: 10px;
+    height: 17px;
+    width: 80%;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px ;
+    height: 40px;
+    color: white;
+    background-color: #50af50;
+    border: none;
+    border-radius: 5px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.products {
+    padding: 0 50px 0 10px;
+    max-width: 234px; /* Set maximum width for this cell */
+    overflow-wrap: break-word; /* Hide overflow text */
+
+}
+
+#number_of_product {
+    color: red;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
